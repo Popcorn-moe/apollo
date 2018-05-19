@@ -1,3 +1,7 @@
+# It's a library
+
+package-lock.json
+
 # Logs
 logs
 *.log

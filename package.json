@@ -1,0 +1,29 @@
+{
+  "name": "@popcorn.moe/apollo",
+  "version": "1.0.0",
+  "description": "Apollo Client configured for popcorn.moe api",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Popcorn-moe/apollo.git"
+  },
+  "author": "Popcorn.moe",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Popcorn-moe/apollo/issues"
+  },
+  "homepage": "https://github.com/Popcorn-moe/apollo#readme",
+  "dependencies": {
+    "apollo-cache-inmemory": "^1.2.1",
+    "apollo-client": "^2.3.1",
+    "apollo-link": "^1.2.2",
+    "apollo-link-http": "^1.5.4",
+    "apollo-upload-client": "^8.0.0",
+    "graphql": "^0.13.2"
+  },
+  "devDependencies": {
+    "node-fetch": "^2.1.2"
+  }
+}

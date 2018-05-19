@@ -1,0 +1,75 @@
+{
+  "__schema": {
+    "types": [
+      {
+        "kind": "INTERFACE",
+        "name": "Dated",
+        "possibleTypes": [
+          {
+            "name": "Anime"
+          },
+          {
+            "name": "Season"
+          }
+        ]
+      },
+      {
+        "kind": "INTERFACE",
+        "name": "IMedia",
+        "possibleTypes": [
+          {
+            "name": "Media"
+          },
+          {
+            "name": "Episode"
+          }
+        ]
+      },
+      {
+        "kind": "UNION",
+        "name": "PlaylistElem",
+        "possibleTypes": [
+          {
+            "name": "PlaylistAnimeElem"
+          },
+          {
+            "name": "PlaylistMediaElem"
+          }
+        ]
+      },
+      {
+        "kind": "INTERFACE",
+        "name": "Notification",
+        "possibleTypes": [
+          {
+            "name": "NotifMessageContent"
+          },
+          {
+            "name": "NotifAnimeFollowContent"
+          }
+        ]
+      },
+      {
+        "kind": "INTERFACE",
+        "name": "Event",
+        "possibleTypes": [
+          {
+            "name": "MessageEvent"
+          },
+          {
+            "name": "UserFollowEvent"
+          },
+          {
+            "name": "AnimeFollowEvent"
+          },
+          {
+            "name": "PlaylistAddEvent"
+          },
+          {
+            "name": "MediaWatchEvent"
+          }
+        ]
+      }
+    ]
+  }
+}
